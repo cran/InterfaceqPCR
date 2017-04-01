@@ -1,0 +1,18 @@
+citHeader(" to cite InterfaceqPCR in publications use:")
+
+
+
+citEntry( entry = "Manual",
+          title = "InterfaceqPCR: a GUI to determine the concentration in the sample, obtained by
+                 qPCR after or not treatment by PMA",
+          author = personList(as.person("Olivier Le Goff")),
+          year = "2017",
+          note = "R package version 1.0",
+          url = "https://CRAN.R-project.org",
+          textVersion=
+            paste(" Olivier Le Goff (2017).",
+                  "InterfaceqPCR: a GUI to determine the concentration in the sample, obtained by
+                 qPCR after or not treatment by PMA.")
+)
+
+citFooter(" I have invested a lot of time and effort in creating this R package, please cite it when using it for data analysis.")
