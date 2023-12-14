@@ -1,12 +1,12 @@
-c9bb756c0f5a7dcf2f425ec24a704876 *DESCRIPTION
+9000ca9feb572a752518fcfc647594b0 *DESCRIPTION
 ccb8b4b11444973524c93df4c5c3526c *NAMESPACE
 60fe9cf3c701a4e70490469d73e643cb *R/InterfacePMAqPCR.R
-fbce028fdde9654a648938e3ac7fb9b9 *R/Interface_Chargement_Fichiers.R
+03a8aac90d24ad870230243e8678eca3 *R/Interface_Chargement_Fichiers.R
 0ef2d86f7e1dd0c24622216b33f301ec *R/InterfaceqPCRtot.R
 8277139538c8e7b248e9eb065287177a *R/Langue_Francais_Anglais.R
-5249e8e8854b7d7cc644bb743abca1d1 *R/Start.R
-515fbe243ea4b46c88bfd30b4c97694e *R/Start_Langue.R
-1d2bbc96fc073bc740be676d21e71f99 *R/Start_select_qPCR_PMA_qPCR.R
+7c858b96bc50b0fe9c86e17be5b5e05c *R/Start.R
+7046b70e6493e87a22d6dcd48e7baaff *R/Start_Langue.R
+44f9558781b5cc6239c92513f1616399 *R/Start_select_qPCR_PMA_qPCR.R
 5b5fbcec93f961bfa8edc61e423d2ce3 *inst/CITATION
 e20a83834ac07208bcd17911c37b634a *inst/Format_echantillons.gif
 6b17fb3016a0e89506e29f802f39d31e *inst/Format_gamme_etalon.gif
@@ -24,7 +24,7 @@ dee7bec5581cd50467bcd301940360aa *inst/csv.gif
 b902283d551877195477665e9b8eca13 *inst/doc/Fichier_Echantillons.xlsx
 bf8de65b67f82539d73c5f335741f0d7 *inst/doc/Fichier_Standards.xlsx
 2647ae915a1101acef617a82d971cc21 *inst/doc/Help_InterfaceqPCR.pdf
-e286827b7ea7677294ce654d07e1122f *inst/doc/InterfaceqPCR-manual.pdf
+f8213cb5e326e99ff181f0ab485b8601 *inst/doc/InterfaceqPCR-manual.pdf
 05b9802d3e1fe2bf6957fcf71b1939b6 *inst/francais_flag.gif
 a5b83613f2ff1d7f18315bed725daff4 *inst/help_icon.gif
 6995323676c5413496e7b17bb79222c3 *inst/jpg.gif
@@ -41,8 +41,8 @@ dc6da67ce76678516d3a15c103f12432 *inst/tiff.gif
 eaa17cd390051846b649bf8cf2d16f98 *inst/xlsx.gif
 f627a3b2540cd7d47c6d9380128fe10f *inst/xlsx_Fichiers_Echantillons.gif
 5bdf8c41fb5e6cbdcb88d493a9cc52b5 *inst/xlsx_Fichiers_Standards.gif
-4f95d8bd3792e2fb0f88fec89f3c31a7 *man/InterfaceqPCR-package.Rd
-a0758e763356b6856500fa8d275a8d37 *man/Start_qPCR.Rd
+c08025f2e29b566c7b45ca9ce970dec8 *man/InterfaceqPCR-package.Rd
+b1f0cf469b9b81bfcec341f32c04787b *man/Start_qPCR.Rd
 5bbef44f03de2fcd02935d5d06240642 *tests/testthat/helper_hello.R
 015d8445526a08f48ca191b5289c0ca2 *tests/testthat/test-Number.R
 b9909f560ced1a4c15aadc4c94aeba68 *tests/testthat/test-help.R

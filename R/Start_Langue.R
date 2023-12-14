@@ -36,9 +36,9 @@ Interface_qPCR_choix_Langue<-function(){
   # choix_langue2 <<- "FRANCAIS"
   # LANGUE()
 
-  # Début interface graphique
+  # DÃ©but interface graphique
   Interface_qPCR_choix_Langue_FRA_ENGL <- tktoplevel()
-  #tkwm.title(Interface_qPCR_choix_Langue_FRA_ENGL,"Bienvenue  sélection de l'analyse")
+  #tkwm.title(Interface_qPCR_choix_Langue_FRA_ENGL,"Bienvenue  sÃ©lection de l'analyse")
   tkwm.title(Interface_qPCR_choix_Langue_FRA_ENGL,"Bienvenue s\u00e9lection de la langue / Welcome select your language")
   tkconfigure(Interface_qPCR_choix_Langue_FRA_ENGL,bg="wheat1",cursor="hand2")
   #tkconfigure(Interface_qPCR_choix_Langue_FRA_ENGL,bg="hotpink1",cursor="hand2") # pour celine !!

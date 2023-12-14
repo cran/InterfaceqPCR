@@ -35,9 +35,9 @@ Interface_qPCR_choix <- function(){
   rm(list=ls())
 
 
-  # Début interface graphique
+  # DÃ©but interface graphique
   Interface_qPCR_choix <- tktoplevel()
-  #tkwm.title(Interface_qPCR_choix,"Bienvenue  sélection de l'analyse")
+  #tkwm.title(Interface_qPCR_choix,"Bienvenue  sÃ©lection de l'analyse")
   tkwm.title(Interface_qPCR_choix,texte1)
   tkconfigure(Interface_qPCR_choix,bg="wheat1",cursor="hand2")
 
@@ -58,7 +58,7 @@ Interface_qPCR_choix <- function(){
 
     tkgrid(etape1, row=1,  columnspan=6,sticky="e")
 
-  #etape11=tklabel(Interface_qPCR_choix, text="pour les échantillons quantifiés ",font=fontHeading,foreground="chocolate4",bg="wheat1")
+  #etape11=tklabel(Interface_qPCR_choix, text="pour les Ã©chantillons quantifiÃ©s ",font=fontHeading,foreground="chocolate4",bg="wheat1")
   etape11 <- tklabel(Interface_qPCR_choix, text=texte3,font=fontHeading,foreground="chocolate4",bg="wheat1")
 
   tkgrid(etape11, row=2,  columnspan=6,sticky="e")
@@ -85,7 +85,7 @@ Interface_qPCR_choix <- function(){
   tkgrid(PMAqPCR.but,row=5,column=2)
 
 
-  #etape29=tklabel(Interface_qPCR_choix, text=" Analyse échantillons traités au PMA ",font=font2,foreground="chocolate4",bg="wheat1")
+  #etape29=tklabel(Interface_qPCR_choix, text=" Analyse Ã©chantillons traitÃ©s au PMA ",font=font2,foreground="chocolate4",bg="wheat1")
   etape29 <- tklabel(Interface_qPCR_choix, text=texte4,font=font2,foreground="chocolate4",bg="wheat1")
 
   tkgrid(etape29, row=5, column=3,  columnspan=3)
@@ -115,7 +115,7 @@ Interface_qPCR_choix <- function(){
                                                                   fsep=.Platform$file.sep)))
   tkgrid(qPCR.but,row=10,column=2)
 
-  #etape40=tklabel(Interface_qPCR_choix, text=" Analyse échantillons non traités au PMA ",font=font2,foreground="chocolate4",bg="wheat1")
+  #etape40=tklabel(Interface_qPCR_choix, text=" Analyse Ã©chantillons non traitÃ©s au PMA ",font=font2,foreground="chocolate4",bg="wheat1")
   etape40 <- tklabel(Interface_qPCR_choix, text=texte5 ,font=font2,foreground="chocolate4",bg="wheat1")
 
   tkgrid(etape40, row=10, column=3,  columnspan=3)
@@ -151,9 +151,9 @@ Interface_qPCR_choix <- function(){
     videaide <- tklabel(aidefenetre,text=" ",font=font2,bg="gray80")
     tkgrid(videaide,row=2)
 
-#     message<-tklabel(aidefenetre,text="InterfaceqPCR\nTraitement des données issues de la qPCR Version 1.0
+#     message<-tklabel(aidefenetre,text="InterfaceqPCR\nTraitement des donnÃ©es issues de la qPCR Version 1.0
 #                      \nOlivier Le Goff
-#                      \nLaboratoire EA CIDAM Clermont-Ferrand\nUniversité d'Auvergne\n2016",bg="gray80",font=font3)
+#                      \nLaboratoire EA CIDAM Clermont-Ferrand\nUniversitÃ© d'Auvergne\n2016",bg="gray80",font=font3)
 #
     message <- tklabel(aidefenetre,text=texte7,bg="gray80",font=font3)
 

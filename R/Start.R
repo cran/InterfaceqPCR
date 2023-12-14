@@ -5,7 +5,7 @@
 #      |                                            |
 #      | Interface qPCR  package                    |
 #      | Analyse des donnees qPCR                   |
-#      | Création fichiers Standard et Echantillons |
+#      | CrÃ©ation fichiers Standard et Echantillons |
 #      | Decembne 2016                              |
 #      |______________________Oooo._________________|
 #                   .oooO     (    )
@@ -70,7 +70,7 @@
 #'     Click on calculate button to determine the standard curve then click on the graphic icon,
 #'     a new window appears showing the regression curve.
 #'     At the top right several parameters: the regression equation,
-#'     the coefficient of determination (R2)² the qPCR efficiency (E) and limits of detection and quantitation were indicated.
+#'     the coefficient of determination (R2)Â² the qPCR efficiency (E) and limits of detection and quantitation were indicated.
 #'     You can output the graphic into the directory of your choice in vector or bitmap formats,
 #'     for that click on the tiff button or/and the jpeg button or/and the pdf button.}
 #'      \item{3}{Concentration in samples:

@@ -1,7 +1,7 @@
 Package: InterfaceqPCR
 Type: Package
 Title: GUI to Analyse qPCR Results after PMA Treatment or not
-Version: 1.0
+Version: 1.0.1
 Date: 2017-03-31
 Author: Olivier LE GOFF [aut, cre]
 Maintainer: Olivier LE GOFF <olivierlegoff1@gmail.com>
@@ -11,10 +11,9 @@ Imports: reshape2, tcltk, tkrplot, xlsx, plyr, graphics, grDevices,
         stats, utils
 Suggests: testthat
 License: GPL-2
-Encoding: latin1
-LazyData: TRUE
+Encoding: UTF-8
 RoxygenNote: 5.0.1
 NeedsCompilation: no
-Packaged: 2017-03-31 18:35:01 UTC; ollegoff
+Packaged: 2023-12-14 15:57:27 UTC; hornik
 Repository: CRAN
-Date/Publication: 2017-04-01 06:30:13 UTC
+Date/Publication: 2023-12-14 16:06:24 UTC

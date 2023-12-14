@@ -6,7 +6,7 @@
 #      |                                             |
 #      | Interface qPCR  package                     |
 #      | Analyse des donnees qPCR                    |
-#      | Création fichiers Standard et Echantillons  |
+#      | CrÃ©ation fichiers Standard et Echantillons  |
 #      | Decembre 2016                               |
 #      |______________________Oooo.__________________|
 #                   .oooO     (    )
@@ -43,9 +43,9 @@ Interface_Chargement_fichiers <- function(){
 
 
 
-  # Début interface graphique
+  # DÃ©but interface graphique
   Interface_Chargement_fichiers <- tktoplevel()
-  #tkwm.title(Interface_Chargement_fichiers,"Données")
+  #tkwm.title(Interface_Chargement_fichiers,"DonnÃ©es")
   tkwm.title(Interface_Chargement_fichiers,texte46)
   tkconfigure(Interface_Chargement_fichiers,bg="wheat1",cursor="hand2")
 
@@ -61,18 +61,18 @@ Interface_Chargement_fichiers <- function(){
   font3  <-  tkfont.create(family="times",size=12,weight="bold")
 
 
-  #etape1=tklabel(Interface_Chargement_fichiers, text="Saisir les données ",font=fontHeading,foreground="chocolate4",bg="wheat1")
+  #etape1=tklabel(Interface_Chargement_fichiers, text="Saisir les donnÃ©es ",font=fontHeading,foreground="chocolate4",bg="wheat1")
   etape1 <- tklabel(Interface_Chargement_fichiers, text=texte47,font=fontHeading,foreground="chocolate4",bg="wheat1")
 
   tkgrid(etape1, row=1,  columnspan=4)#, sticky="w")
 
-  #etape11=tklabel(Interface_Chargement_fichiers, text="Enregistrer les données sous un autre nom",font=fontHeading,foreground="chocolate4",bg="wheat1")
+  #etape11=tklabel(Interface_Chargement_fichiers, text="Enregistrer les donnÃ©es sous un autre nom",font=fontHeading,foreground="chocolate4",bg="wheat1")
   etape11 <- tklabel(Interface_Chargement_fichiers, text=texte48,font=fontHeading,foreground="chocolate4",bg="wheat1")
 
   tkgrid(etape11, row=2,  columnspan=4)#, sticky="w")
 
 
-  #etape11=tklabel(Interface_Chargement_fichiers, text="Enregistrer les données sous un autre nom",font=fontHeading,foreground="chocolate4",bg="wheat1")
+  #etape11=tklabel(Interface_Chargement_fichiers, text="Enregistrer les donnÃ©es sous un autre nom",font=fontHeading,foreground="chocolate4",bg="wheat1")
   etape2 <- tklabel(Interface_Chargement_fichiers, text=texte48bis,font=fontHeading,foreground="chocolate4",bg="wheat1")
   tkgrid(etape2, row=3,  columnspan=4)#, sticky="w")
 
@@ -172,7 +172,7 @@ Interface_Chargement_fichiers <- function(){
 
     fenetreaffichage_format_donnes_echantillons <- tktoplevel()
     tkwm.geometry(fenetreaffichage_format_donnes_echantillons, "290x250")
-    #tkwm.title(fenetreaffichage_format_donnes_echantillons,"Format fichier des échantillons")
+    #tkwm.title(fenetreaffichage_format_donnes_echantillons,"Format fichier des Ã©chantillons")
     tkwm.title(fenetreaffichage_format_donnes_echantillons, texte26)
 
     fermeturefenetreechantillons <- function(){
@@ -246,9 +246,9 @@ Interface_Chargement_fichiers <- function(){
     videaide<-tklabel(aidefenetre,text=" ",font=font2,bg="gray80")
     tkgrid(videaide,row=2)
 
-    #     message<-tklabel(aidefenetre,text="InterfaceqPCR\nTraitement des données issues de la qPCR Version 1.0
+    #     message<-tklabel(aidefenetre,text="InterfaceqPCR\nTraitement des donnÃ©es issues de la qPCR Version 1.0
     #                      \nOlivier Le Goff
-    #                      \nLaboratoire EA CIDAM Clermont-Ferrand\nUniversité d'Auvergne\n2016",bg="gray80",font=font3)
+    #                      \nLaboratoire EA CIDAM Clermont-Ferrand\nUniversitÃ© d'Auvergne\n2016",bg="gray80",font=font3)
     #
     message <- tklabel(aidefenetre,text=texte7,bg="gray80",font=font3)
 

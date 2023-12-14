@@ -30,7 +30,7 @@ This interface is composed of 4 steps:
      Click on calculate button to determine the standard curve then click on the graphic icon,
      a new window appears showing the regression curve.
      At the top right several parameters: the regression equation,
-     the coefficient of determination (R²), the qPCR efficiency (E) and limits of detection and
+     the coefficient of determination (RÂ²), the qPCR efficiency (E) and limits of detection and
      quantitation were indicated.
      You can output the graphic into the directory of your choice in vector or bitmap formats,
      for that click on the tiff button or/and the jpeg button or/and the pdf button.}
